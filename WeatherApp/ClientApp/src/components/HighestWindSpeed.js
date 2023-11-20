@@ -108,7 +108,7 @@ const HighestWindSpeed = () => {
             }
             return '';
           },
-          label: (tooltipItem) => `Highest Wind: ${tooltipItem.formattedValue}°C`,
+          label: (tooltipItem) => `Highest Wind: ${tooltipItem.formattedValue} km/h`,
         },
       },
     },
